@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ background-color: #eee;
+    font-family: 'Roboto', sans-serif;}
+.container{ 
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{ width: 100px;
+        height: 120px;
+        border: 3px solid white;
+        border-radius: 50px;
+        float: left;}
+        .header{
+            float: left;
+            padding: 30px;
+        }
+        h1,h2,h3,h4,h5,h6{
+            color: #11999e;
+            ;
+        }
+        .contack{
+            float: right;
+            padding: 50px
+        }
+        .contack a{ text-decoration: none;
+            color: teal; font-weight: bold;}
+
+        .contack a:hover{ text-decoration: underline;
+        color: red;}
+        .div-clear{ clear: both;}
+        hr{ border: solid black 3px;
+        width: 100%;
+    margin: 20px auto;
+border-bottom: none;}
+.left-div{ float: left;
+        width: 50%;}
+
+.right-div{ float: right;
+            width: 50%;}
+
+.common-hr{ border: solid black 1px;
+            border-bottom: none;
+            margin: 20px auto;
+            width: 100%;}
+.duration{ font-size: 11px;
+            color: #11999e;}
+.right-to-right{ width: 45%;
+        float: right;}
+
+.right-to-left{width: 45%;
+            float: left;}
+li{ list-style: square;}
+.foot{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.foot a{ color: white;
+text-decoration: none;
+    margin: 20px;}
+.foot p{ color: white;
+        margin-top: 10px;}
